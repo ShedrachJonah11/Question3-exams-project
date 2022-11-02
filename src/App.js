@@ -7,6 +7,8 @@ import Search from "./components/products/Search";
 import AddProduct from "./components/products/AddProduct";
 import ProductDisplay from "./components/products/ProductDisplay";
 import ListProducts from "./components/products/ListProducts";
+import PageNotFound from "./components/PageNotFound";
+import ErrorBoundary from "./components/ErrorBoundary";
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="login" element={<Login />} />
+        <Route path="*" element={<PageNotFound />} />
+        <Route path="*" element={<ErrorBoundary />} /> 
         <Route path="products" element={<Products />}>
           <Route path="search" element={<Search />} />
           <Route path="list" element={<ListProducts />} />
