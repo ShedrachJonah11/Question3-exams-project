@@ -97,7 +97,7 @@ a {
 
 .searchTerm {
   width: 100%;
-  border: 3px solid rgb(69, 62, 249);
+  border: #fff;
   border-right: none;
   padding: 5px;
   height: 20px;
@@ -107,7 +107,7 @@ a {
 }
 
 .searchTerm:focus {
-  color: rgb(69, 62, 249);
+  color: #fff;
 }
 
 /* .searchButton {
@@ -174,7 +174,7 @@ a {
 .productDisplay {
   width: 300px;
   height: 300px;
-  background-color: rgb(62, 119, 243);
+  background-color: #fff;
   cursor: pointer;
 }
 
