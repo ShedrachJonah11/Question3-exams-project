@@ -10,7 +10,7 @@ class ErrorBoundary extends React.Component {
       error: error,
       errorInfo: errorMessage,
     });
-    // logErrorToMyService(error, errorMessage);
+    
   }
   render() {
     if (this.state.hasError) {
